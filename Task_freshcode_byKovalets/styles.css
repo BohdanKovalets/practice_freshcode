@@ -1,0 +1,308 @@
+:root{
+    --text-family: "Montserrat", serif;
+}
+
+body{
+    font-size: 1em;
+    font-family: var(--text-family);
+}
+
+                                                         /*HEADER*/
+.header-flex{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 2.6em 4.44em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navigation{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    gap: 2.5em;
+    
+}
+
+.nav-btn{
+    font-weight: 400;
+    color: #000000;
+}
+
+.support-btn{
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.32em 2.19em;
+    border-radius: 5.43em;
+}
+
+                                                                 /*HERO*/
+.hero{
+    background-image: url(./images/hero-img.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+}
+.hero-flex {
+    display: flex;
+    margin-left: 6.56em;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+.hero-title {
+    font-size: 3.94em;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+.hero-text {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-bottom: 1.25em;
+}
+
+.hero-btn{
+    background-color: #FFFFFF;
+    width: 40%;
+    text-align: center;
+}
+
+                                                         /*WHO WE*/
+.who-we {
+    padding: 10em 13.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.we-title {
+    font-size: 3.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+.we-text {
+    font-size: 1.69em;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+
+.we-text2 {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #73A6B1;
+}
+
+                                                                /*WORKS*/
+.works {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 4.43em 10em 4.43em;
+    align-items: center;
+}
+
+.works-list {
+    display: flex;
+    gap: 3.12em;
+    flex-direction: column;
+}
+
+.works-part {
+    display: flex;
+    background-color: #F1FDFF;
+    padding: 2.5em 3.87em;
+}
+
+.wokrs-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5em 3.75em;
+}
+.works-title {
+    font-size: 2.85em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    align-content: center;
+}
+
+.works-text {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.works-btn {
+    margin-top: 3.125em;
+    width: 19%;
+}
+
+                                                        /*Mission*/
+.mission {
+    margin: 13.8rem 5.4rem; 
+    padding: 5.6rem 3.9rem;
+    display: flex;
+    position: relative; 
+    background-color: #F1FDFF;
+}
+
+.mission-text {
+    font-size: 1.7em;
+    font-weight: 400;
+    width: 50%;
+}
+
+.mission-lines {
+    position: absolute;
+    bottom: 1em;
+}
+
+.mission-children {
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+}
+
+                                                         /*Support*/
+.support {
+    padding: 0em 12.6em 10em 12.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.support-title {
+    font-size: 3.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+.support-text {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #73A6B1;
+    margin-bottom: 3.1em;
+}
+
+.goal-how-many {
+    font-size: 1.69em;
+    font-weight: 400;
+}
+
+.now-money {
+    font-size: 3.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.blue-line {
+    display: inline-block;
+    width: 0.15rem;
+    height: 6vh;
+    background-color: #9AD2DE;
+    vertical-align: middle;
+   
+}
+
+.support-money-btn{
+    width: 24%;
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.32em 2.19em;
+    border-radius: 5.43em;
+}
+
+
+                                                    /*Footer*/
+footer{
+    background-color: #F9FADF;
+    padding: 0em 4.4em 10em 4.4em;
+}
+
+.contacts {
+    display: flex;
+    padding-top: 3.1em;
+    justify-content: space-between;
+    padding-bottom: 3.2em;
+}
+
+.contacts-title {
+    font-size: 3.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-number {
+    font-weight: 700;
+}
+
+.about-contacts,.contacts-text{
+    width: 47%;
+}
+
+.phone-text{
+    width: 50%;
+    margin-bottom: 3.57em;
+}
+
+.phone-img{
+    margin-bottom: 0.57em;
+}
+
+
+                                                          /*Footer-form*/
+.footer-form {
+    display: flex;
+    padding: 3.75em;
+    background-color: #FFFFFF;
+    gap: 5.3em;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.94em;
+}
+
+.form-text {
+    font-size: 1.69em;
+    font-weight: 400;
+}
+
+.input-text,.input-email,.subcribe-btn-form {
+    color: #000000;
+    font-size: 1.25em;
+    font-weight: 400;
+    background-color: #F9FADF;
+    border-width: 0;
+    padding: 1.15em 1.95em;
+    border-radius: 4.8rem;
+}
+
+.subcribe-btn-form {
+    background-color: #7AE5FD;
+    text-transform: uppercase;
+}
